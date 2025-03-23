@@ -1,3 +1,4 @@
+```sql
 -- drop old version:
 DROP DATABASE hw3 WITH(FORCE);
 DROP USER IF EXISTS hw3;
@@ -175,3 +176,4 @@ ALTER TABLE texts SET (autovacuum_enabled = true);
 -- ALTER TABLE -- включение автовакуума.
 
 -- вывод? Автовакуум не работает. :)
+```
